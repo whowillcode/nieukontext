@@ -1,0 +1,56 @@
+
+body{
+	background-color: #333333;
+}
+.words{
+	font-family: 'Bree Serif', serif;
+	color: white;
+}
+
+.center {
+  position: fixed;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+#circle{
+	height:100;
+	width:100;
+}
+
+/* start of desktop styles */
+
+@media (min-width:320px) { 
+
+	.words{
+		font-size:40px;
+	}
+}
+@media (min-width:481px) { 
+
+	.words{
+		font-size:60px; 
+	}
+}
+@media (min-width:641px) { 
+	.words{
+		font-size:70px; 
+	}
+ }
+@media (min-width:961px) { 
+	.words{
+		font-size:80px; 
+	}
+ }
+@media (min-width:1025px) { 
+	.words{
+		font-size:90px; 
+	}
+ }
+@media (min-width:1281px) { 
+.words{
+		font-size:100px; 
+	}
+ }
+
