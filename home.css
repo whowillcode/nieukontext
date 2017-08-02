@@ -15,9 +15,11 @@ body{
   margin-left: -100px;
 }
 
-#circle{
-	height:100;
-	width:100;
+.square {
+    background: white;
+    width: 50vw;
+    height: 15vw;
+	margin-top: 10px;
 }
 
 /* start of desktop styles */

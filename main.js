@@ -8,7 +8,8 @@ const context_arr =
 var interval = 1;
 var one = document.getElementById("one");
 var two = document.getElementById("two");
-var three = document.getElementById("three");
+var sq = document.getElementById("square");
+
 var body = document.body;
 var state=1;
 var handle= setInterval(shuffle,interval);
@@ -41,7 +42,6 @@ function shuffle(){
 
 }; 
 
-one.addEventListener('click',playpause);
-two.addEventListener('click',playpause);
-
+// one.addEventListener('click',playpause);
+sq.addEventListener('click',playpause);
 
