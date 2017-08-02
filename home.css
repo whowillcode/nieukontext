@@ -4,19 +4,21 @@ body{
 }
 .words{
 	font-family: 'Bree Serif', serif;
-	font-size:40px;
 	color: white;
 }
 
 .center {
   position: fixed;
   left: 50%;
-  top:50%;
+  top:10%;
   margin-top: -50px;
   margin-left: -100px;
 }
 
-
+#circle{
+	height:100;
+	width:100;
+}
 
 /* start of desktop styles */
 

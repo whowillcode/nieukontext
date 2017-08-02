@@ -11,10 +11,7 @@ var two = document.getElementById("two");
 var three = document.getElementById("three");
 var body = document.body;
 var state=1;
-var handle=setInterval(shuffle,interval);;
-
-document.body.addEventListener('click',playpause); 
-
+var handle= setInterval(shuffle,interval);
 
 function playpause(){
 	if(state) {clearInterval(handle); state=0;}
@@ -43,3 +40,8 @@ function shuffle(){
   // three.innerHTML = random[2];
 
 }; 
+
+one.addEventListener('click',playpause);
+two.addEventListener('click',playpause);
+
+
